@@ -10,7 +10,7 @@ $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
 $support_domain = 'www.mediafire.com';
 
 if(empty($url)) {
-  $url = 'http://www.mediafire.com/file/8x5ol3r8wpb477a/small.mp4'; // sample link
+  $url = 'http://www.mediafire.com/file/d4prl8x8cqnqf5v/T1398-01.mp4'; // sample link
 }
 if($url) {
   preg_match('@^(?:http.?://)?([^/]+)@i', $url, $matches);
